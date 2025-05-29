@@ -1,0 +1,69 @@
+body{
+    background-image: url('Images/3.jpg');
+    background-size: cover;
+}
+.div0{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.border-radius a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0px 10px;
+    border-radius: 15px;
+}
+.border-radius a:hover{
+    background-color:#b5daff;
+    border-radius:15px;
+    padding: 0 10px;
+}
+     .color-premier{
+      background-color: #4573d3;   
+     }
+ button{
+    color: #ffffff;
+    border-radius: 15px;
+    background-color:#d34573;
+    border: 0;  
+    padding:0 15px; 
+    }
+ button:hover {
+    background-color: #e283a2;   
+    animation: animateBtn 5s linear infinite alternate-reverse ;
+    animation-fill-mode: both;
+   } 
+   @keyframes animateBtn {
+    0%{
+        transform:translate(50px,20px);
+    }
+    50%{
+        transform: translate(10px,40px);
+    }
+    100%{
+transform:translate(150px,40px) ;
+    }
+}
+   input{
+    border-radius: 15px;
+    height: 25px;
+    padding: 5px 15px;
+    border: none;
+    width: 300px;
+    margin: 10px;
+   }
+   .test::first-letter{
+    animation: animateBtn 5s;
+   }
+
+   #checkbox1{
+width: 15px; 
+   }
+   .chec-text{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+ }
